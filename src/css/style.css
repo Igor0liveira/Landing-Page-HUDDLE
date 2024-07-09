@@ -1,0 +1,90 @@
+
+
+body{
+    min-width: 100%;
+    min-height: 100vh;
+    background: url('../images/bg-desktop.svg') var(--color-primary-one) no-repeat ;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 6rem;
+}
+
+.header .logo img{
+    width: 26rem;
+    margin-bottom: 6rem;
+}
+
+.main{
+    display: flex;
+    display: grid;
+    grid-template-columns: 80rem 1fr;
+    margin-top: 2rem;
+}
+
+.main .main-img img{
+    width: 100%;
+
+}
+
+.main .main-info{
+    margin-left: 3rem;
+    margin-top: 5rem;
+}
+
+.main .main-info h1{
+    font-size: 4rem;
+    font-family: "poppins";
+    text-transform: capitalize;
+}
+
+.main .main-info p{
+    font-size: 1.7rem;
+    font-family: "open sans";
+    margin: 3rem 0 3.2rem 0;
+    
+}
+
+.main .main-info .btn{
+    font-size: 1.6rem;
+    font-family: "open sans";
+    color: var(--color-primary-one);
+    background-color: #fff;
+    padding: 1.6rem 5rem;
+    border-radius: 4rem;
+    box-shadow: 0.1rem 0.3rem 0.9rem rgba(0, 0, 0, 0.7);
+    transition: 0.35s ease-in-out;    
+}
+
+.main .main-info .btn:hover{
+    background-color: var(--color-primary-two);
+    color: #fff;
+}
+
+
+.footer nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    align-items: center;
+}
+
+.footer .social a i{
+    text-align: center;
+    width: 4rem;
+    height: 4rem;
+    font-size: 2rem;
+    border: 0.1rem solid #fff;
+    padding: 0.8rem;
+    border-radius: 50%;
+    transition: 0.35s ease-in-out;
+}
+
+.footer .social a i:hover{
+    color: var(--color-primary-two);
+    border-color: var(--color-primary-two);
+}
