@@ -21,18 +21,19 @@ body{
 
 .main{
     display: flex;
+    justify-content: space-between;
     display: grid;
-    grid-template-columns: 80rem 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
     margin-top: 2rem;
 }
 
 .main .main-img img{
-    width: 100%;
+    width: 110%;
 
 }
 
 .main .main-info{
-    margin-left: 3rem;
+    margin-left: 12rem;
     margin-top: 5rem;
 }
 
@@ -67,6 +68,7 @@ body{
 
 
 .footer nav{
+    margin-top: 6rem;
     display: flex;
     justify-content: flex-end;
     gap: 2rem;
@@ -88,3 +90,6 @@ body{
     color: var(--color-primary-two);
     border-color: var(--color-primary-two);
 }
+
+
+/* responsive */
