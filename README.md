@@ -23,7 +23,7 @@
 ### Links 📌
 <ul>
 <li><a href="https://github.com/Igor0liveira/Landing-Page-HUDDLE">Repositório</a></li>
-<li><a href="https://igor0liveira.github.io/Landing-Page-HUDDLE/">Site ao vivo</a></li>
+<li><a href="https://igor0liveira.github.io/Landing-Page-HUDDLE/" target="_blank">Site ao vivo</a></li>
 </ul>
 
 ## O que eu aprendi 📚
